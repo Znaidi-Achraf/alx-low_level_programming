@@ -9,13 +9,10 @@
 
 int main(void)
 {
-printf("Size of char: %u bytes\n", sizeof(char));
-printf("Size of int: %u bytes\n", sizeof(int));
-printf("Size of a long int: %u bytes\n", sizeof(long int));
-printf("Size of a long long int: %u bytes\n", sizeof(long long int));
-printf("Size of float: %u bytes\n", sizeof(float));
-	return (0);
-
-
-
+printf("Size of char: %lu bytes\n", (unsigned long int)sizeof(char));
+printf("Size of int: %lu bytes\n", (unsigned long int)sizeof(int));
+printf("Size of a long int: %lu bytes\n", (unsigned long int)sizeof(long int));
+printf("Size of a long long int: %lu bytes\n", (unsigned long int)sizeof(long long int));
+printf("Size of float: %lu bytes\n", (unsigned long)sizeof(float));
+ return (0);
 }
