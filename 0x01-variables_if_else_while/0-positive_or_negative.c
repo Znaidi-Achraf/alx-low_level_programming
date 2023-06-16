@@ -2,29 +2,31 @@
 #include <time.h>
 #include <stdio.h>
 
+/* more headers goes there */
 /**
- * main - entry point
- * 
- * Description: Determines if a number is positive or negative
- * 
- * Return: 0 (success)  
-*/
-
+ * main - start portal
+ *
+ * Return: Success 0
+ */
+/* betty style doc for function main - goes there */
 int main(void)
 {
-    int n;
+	int n;
 
-    srand(time(0));
-    n = rand() % RAND_MAX + 1;
-
-    if (n > 0)
-        printf("%i is positive\n", n);
-    else if (n == 0)
-        printf("%i is zero\n", n);
-    else
-        printf("%i is negative\n", n);
-
-    return 0;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+	else
+	{
+		printf("0 is zero\n");
+	}
+	return (0);
 }
-
-
