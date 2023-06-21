@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - checks if the input is lowercase
- * @c: variable to determine if the input is lowercase
- * main - uses built-in function
- * Return: 0 if succesful
+ *_islower -checks if input is lowercase
+ *@c: variable to determine if input in lowercase
+ *main - uses built in function
+ *Return: 0 if succesful
  */
+
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
@@ -16,5 +17,5 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
+	_putchar ('\n);
 }
