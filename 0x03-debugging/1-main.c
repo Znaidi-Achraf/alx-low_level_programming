@@ -14,7 +14,7 @@
 int main(void)
 {
         int n;
-
+	positive_or_negative(i);
         srand(time(0));
         n = rand() - RAND_MAX / 2;
         if (n > 0)
