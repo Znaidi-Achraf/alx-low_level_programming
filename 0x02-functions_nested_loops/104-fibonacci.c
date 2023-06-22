@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*
- * numlength -returns the lenth of string
- * @num : operand number
- * return: number of digits
+/**
+ * numLength - Returns the length of a number
+ * @num: The operand number
  *
+ * Return: The number of digits
  */
 int numLength(int num)
 {
