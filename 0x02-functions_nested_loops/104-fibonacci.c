@@ -24,6 +24,7 @@ int numLength(int num)
 	return (length);
 }
 /**
+ *  main - Entry point of the program
  *  main - prints the first 98 Fibonacci sequences
  *  Return: 0
  */
