@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
-*print_sign - (+ if 1), (0 if 0), (- if < 0)
-*
-* @n: Number to be tested
-*
-*Return: return the sign
-*
-*/
+ * print_sign - (+ if 1), (0 if 0), (-if < 0)
+ *
+ * @n: Number to be tested
+ *
+ * Return: return the sign
+ */
 
 int print_sign(int n)
 {
