@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strncpy - a function that copies a string.
+ * _strncpy - concatenate strings, defining the size of the second string.
  *
- * @dest: pointer to destination input buffer
+ * @dest: pointer to the destination input buffer
  * @src: pointer to source input buffer
- * @n: bytes of @src
+ * @n: the size of the second string
+ * Return: always 0
  */
 
 char *_strncpy(char *dest, char *src, int n)
